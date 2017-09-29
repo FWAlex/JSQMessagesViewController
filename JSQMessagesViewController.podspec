@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name = 'FW_JSQMessagesViewController'
-	s.version = '7.3.4'
+	s.version = '7.3.5'
 	s.summary = 'A forked version of JSQMessagesViewController.'
 	s.homepage = 'https://github.com/FWAlex/JSQMessagesViewController'
 	s.license = 'MIT'
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     #                'https://raw.githubusercontent.com/jessesquires/JSQMessagesViewController/develop/Screenshots/screenshot2.png',
     #                'https://raw.githubusercontent.com/jessesquires/JSQMessagesViewController/develop/Screenshots/screenshot3.png']
 
-	s.source = { :git => 'https://github.com/FWAlex/JSQMessagesViewController.git', :tag => s.version }
+	s.source = { :git => 'https://github.com/FWAlex/JSQMessagesViewController.git', :tag => s.version.to_s }
 	s.source_files = 'JSQMessagesViewController/**/*.{h,m}'
 
 	s.resources = ['JSQMessagesViewController/Assets/JSQMessagesAssets.bundle', 'JSQMessagesViewController/**/*.{xib}']
