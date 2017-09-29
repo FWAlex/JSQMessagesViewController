@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name = 'FW_JSQMessagesViewController'
-	s.version = '7.3.5'
+	s.version = '7.3.6'
 	s.summary = 'A forked version of JSQMessagesViewController.'
 	s.homepage = 'https://github.com/FWAlex/JSQMessagesViewController'
 	s.license = 'MIT'
