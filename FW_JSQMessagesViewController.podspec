@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     #                'https://raw.githubusercontent.com/jessesquires/JSQMessagesViewController/develop/Screenshots/screenshot2.png',
     #                'https://raw.githubusercontent.com/jessesquires/JSQMessagesViewController/develop/Screenshots/screenshot3.png']
 
-	s.source = { :git => 'https://github.com/FWAlex/JSQMessagesViewController.git', :branch => 'master', :tag => s.version.to_s }
+	s.source = { :git => 'https://github.com/FWAlex/JSQMessagesViewController.git', :tag => s.version.to_s }
 	s.source_files = 'JSQMessagesViewController/**/*.{h,m}'
 
 	s.resources = ['JSQMessagesViewController/Assets/JSQMessagesAssets.bundle', 'JSQMessagesViewController/**/*.{xib}']
